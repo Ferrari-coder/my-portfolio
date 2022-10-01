@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    transition: all 1s ease-in-out;
+    background-color: #222222;
+}
+header{
+    background: scroll;
+    background-color: #222222;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.nav-links a{
+    text-decoration: none;
+    color:#ffffff;
+    padding: 0 20px;
+    font-weight: 600;
+}
+.nav-links a:hover{
+    color: #F8043D;
+}
+.socials a i{
+    color: #ffffff;
+    padding: 0 13px;
+}
+.socials a i:hover{
+    color: #F8043D;
+}
+.hero-text{
+    background-image: url(../public/images/black-elegant-background-with-copy-space.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    text-align: center;
+    height: 80vh;
+}
+.hero-text h1{
+    padding-top: 25vh;
+    font-size: 50px;
+    color: #ffffff;
+    /* background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.hero-text h4{
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 0;
+}
+.hero-text p {
+    color: #c5c6c7;
+    margin-bottom: 24px;
+}
+.online-cv{
+    padding: 14px 24px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 15px;
+}
+.download-cv{
+    padding: 14px 24px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    background: #F8043D;
+}
+.download-cv:hover{
+    background-color: #b01742;
+}
+/* .about{
+    margin-top:100px;
+}
+.flexy{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 0 50px;
+    align-self: center;
+}
+.picture img{
+    width: 300px;
+}
+.text #first-p{
+margin: 30px;
+} */
+
+.services{
+    margin: 4rem 50px;
+}
+.services-head h5{
+    color: #F8043D;
+}
+.services-head h1{
+    color: #ffffff;
+    font-size: 40px;
+}
+.service-box{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-box .container-box{
+    background-color: #2e2e30;
+    padding: 60px;
+    width: 30%;
+    border-radius: 10px ;
+}
+.service-box .container-box:hover{
+    border: 1px solid #b01742;
+}
+.container-box i {
+    color: #b01742;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.container-box h3{
+    color: #ffffff;
+}
