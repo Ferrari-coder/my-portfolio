@@ -4,6 +4,9 @@ import React from "react";
 import Header from "./header";
 import Services from "./services";
 import ShowCase from "./portfolio";
+// import './App.css';
+import TestiMonials from './components/TestiMonials/TestiMonials';
+
 
 
 
@@ -13,6 +16,7 @@ function App() {
       <Header/>
       <Services/>
       <ShowCase/>
+      <TestiMonials></TestiMonials>
     </body>
   )
 }

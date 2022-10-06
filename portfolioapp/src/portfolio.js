@@ -16,7 +16,7 @@ const ShowCase = () => {
                         <h3>DRINK NOURRIR</h3>
                         <h4>BUSINESS/E-COMMERCE</h4>
                         <p>Drink Nourrir is an e-commerce website for food/drinks. It has a certified payment system for easy checkout, the website is user-friendly. </p><br/>
-                        <button><a href="https://drinknourrir.com/">VISIT WEBSITE</a></button>
+                        <a href="https://drinknourrir.com/" target="_blank" rel="noreferrer"><button>VISIT WEBSITE</button></a>
                     </div>
                 </div>
                 <div className="project-box">
@@ -25,7 +25,7 @@ const ShowCase = () => {
                         <h3>TEAM APP</h3>
                         <h4>BLOG</h4>
                         <p>Drink Nourrir is an e-commerce website for food/drinks. It has a certified payment system for easy checkout, the website is user-friendly. </p><br/>
-                        <button><a href="https://akindolanis-team-app.webflow.io/">VISIT WEBSITE</a></button>
+                        <a href="https://akindolanis-team-app.webflow.io/" target="_blank" rel="noreferrer"><button>VISIT WEBSITE</button></a>
                     </div>
                 </div>
                 <div className="project-box">
@@ -34,7 +34,7 @@ const ShowCase = () => {
                         <h3>TRAINING STUDIO</h3>
                         <h4>LANDING PAGE</h4>
                         <p>Training studio is a landing page for a gym studio. It has a section for the studio schedule,contact form and call to action. </p><br/>
-                        <button><a href="https://feranmi-training-studio.netlify.app/">VISIT WEBSITE</a></button>
+                        <a href="https://feranmi-training-studio.netlify.app/" target="_blank" rel="noreferrer"><button>VISIT WEBSITE</button></a>
                     </div>
                 </div>
             </div>

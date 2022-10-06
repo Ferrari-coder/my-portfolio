@@ -8,8 +8,8 @@ body{
     background-color: #222222;
 }
 header{
-    background: scroll;
     background-color: #222222;
+    /* position: fixed; */
 }
 nav{
     display: flex;
@@ -96,7 +96,9 @@ nav{
 margin: 30px;
 } */
 .services{
-    margin: 4rem 50px 6rem 50px;
+    padding: 4rem 50px 6rem 50px;
+    background-color: #222222;
+
 }
 
 .services-head h5{
@@ -169,7 +171,7 @@ margin: 30px;
     color: #c5c6c7;
     font-size: 13px;
 }
-.project-box button a{
+.project-box a button{
     text-decoration: none;
     font-size: 12px;
     color: #ffffff;
