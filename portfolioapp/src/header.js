@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css"
+import MyHeroIcon from "../src/image/heroimg.png"
 
 // component for header
 const Header = () => {
@@ -36,13 +37,19 @@ const Header = () => {
         </header>
         {/* end of nav part */}
         {/* text in the hero part */}
-        <div className="hero-text">
-            <h1>Hello, I'm Aiyegbusi Oluwaferanmi</h1>
-            <h4>A web designer and developer</h4>
-            <p>An hard working, a self-driven professional who thrives on creativity and problem-solving.</p>
+        <div className="hero">
+            <div className="hero-text">
+            <h1>Build amazing <br/> websites with me</h1>
+            <p id="p1">Hello, I am Aiyegbusi Oluwaferanmi, a web developer and designer.</p>
+            <p>I am an hard working, a self-driven professional who thrives on creativity and problem-solving. I design create, user-friendly and responsive websites that help individuals and organizations increase their capacity for excellence.</p>
             <button className="online-cv">ONLINE CV(DOCX)</button>
             <button className="download-cv">DOWNLOAD CV(PDF)</button>
+            </div>
+            <div className="hero-img">
+                <img src={MyHeroIcon} alt="heroimg" style={{width : "500px"}}/>
+            </div>
         </div>
+
     </div>
   );
 };

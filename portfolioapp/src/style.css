@@ -1,83 +1,88 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
-body{
-    transition: all 1s ease-in-out;
-    background-color: #222222;
+body {
+  transition: all 1s ease-in-out;
 }
-header{
-    background-color: #222222;
-    /* position: fixed; */
+header {
+  background-color: #070809;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
 }
-.nav-links a{
-    text-decoration: none;
-    color:#ffffff;
-    padding: 0 20px;
-    font-weight: 600;
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0 20px;
+  font-weight: 600;
 }
-.nav-links a:hover{
-    color: #b01742;
+.nav-links a:hover {
+  color: #0bd9d9;
 }
-.socials a i{
-    color: #ffffff;
-    padding: 0 13px;
+.socials a i {
+  color: #ffffff;
+  padding: 0 13px;
 }
-.socials a i:hover{
-    color: #b01742;
+.socials a i:hover {
+  color: #0bd9d9;
 }
-.hero-text{
-    background-image: url(../public/images/black-elegant-background-with-copy-space.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    text-align: center;
-    height: 80vh;
+.hero-part {
+  background:#070809;
 }
-.hero-text h1{
-    padding-top: 25vh;
-    font-size: 50px;
-    color: #ffffff;
-    /* background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+.hero{
+  display: flex;
+  justify-content: space-between;
+  padding: 80px ;
 }
-.hero-text h4{
-    font-size: 20px;
-    color: #ffffff;
-    padding: 10px 0;
+.hero-text h1 {
+  font-size: 80px;
+  color: #ffffff;
+  line-height: 80px;
+  font-family: 'Alkalami', serif;
 }
+
 .hero-text p {
-    color: #c5c6c7;
-    margin-bottom: 24px;
+  color: #c5c6c7;
+  margin-bottom: 1px;
 }
-.online-cv{
-    padding: 14px 24px;
-    border-radius: 20px;
-    border: none;
-    font-size: 12px;
-    font-weight: 600;
-    margin: 15px;
+#p1{
+  font-weight: 600;
 }
-.download-cv{
-    padding: 14px 24px;
-    border-radius: 20px;
-    border: none;
-    font-size: 12px;
-    font-weight: 600;
-    color: #ffffff;
-    background: #b01742;
+.online-cv {
+  background: #0bd9d9;
+  padding: 14px 24px;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 15px 15px 0 0;
 }
-.download-cv:hover{
-    background-color: #df2651;
-    color: #000;
+.online-cv:hover{
+  border: 1px solid #0bd9d9;
+  color: #0bd9d9;
+  background: rgba(11,217,217,0.15);
+}
+.download-cv {
+  padding: 14px 24px;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  background: inherit;
+}
+.download-cv:hover {
+  background-color: #ffffff;
+  color: #000;
 }
 /* .about{
     margin-top:100px;
@@ -95,92 +100,103 @@ nav{
 .text #first-p{
 margin: 30px;
 } */
-.services{
-    padding: 4rem 50px 6rem 50px;
-    background-color: #222222;
-
+.services {
+  padding: 4rem 80px 6rem 80px;
+  background-color: #0d0d10;
 }
 
-.services-head h5{
-    color: #b01742;
+.services-head h5 {
+  color: #bebebe;
 }
-.services-head h1{
-    color: #ffffff;
-    font-size: 40px;
+.services-head h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Alkalami', serif;
+
 }
-.service-box{
-    margin: 3rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.service-box {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.service-box .container-box{
-    background-color: #2e2e30;
-    padding: 60px;
-    width: 30%;
-    border-radius: 10px ;
+.service-box .container-box {
+  background-color: #070809;
+  padding: 60px;
+  width: 30%;
+  border-radius: 10px;
 }
-.service-box .container-box:hover{
-    border: 1px solid #b01742;
+.service-box .container-box:hover {
+  border: 1px solid #ffffff;
 }
 .container-box i {
-    color: #b01742;
-    margin-bottom: 10px;
-    font-size: 30px;
+  color: #0bd9d9;
+  margin-bottom: 10px;
+  font-size: 30px;
 }
-.container-box h3{
-    color: #ffffff;
+.container-box h3 {
+  color: #ffffff;
+  font-size: 20px;
 }
-.portfolio{
-    background-color: #2e2e30;
-    padding: 3rem 50px;
+.portfolio {
+  background-color: #070809;
+  padding: 3rem 80px;
 }
-.portfolio .portfolio-head h2{
-    text-align: center;
-    margin-top: 2rem ;
-    margin-bottom: 5rem;
-    font-size: 40px;
-    color: #ffffff;
+.portfolio .portfolio-head h2 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  font-size: 40px;
+  color: #ffffff;
+  font-family: 'Alkalami', serif;
+
 }
-.project-box img{
-    width: 100%;
+.project-box img {
+  width: 100%;
 }
-.project{
-    display: flex;
-    justify-content: space-between;    
+.project {
+  display: flex;
+  justify-content: space-between;
 }
-.project-box{
-    width: 30%;
-    padding: 20px;
+.project-box {
+  width: 30%;
+  padding: 20px;
+  border: 2px solid #ffffff;
 }
-.project-box:hover{
-    border: 2px solid #b01742;
+.project-box:hover {
+  border: 2px solid #ffffff;
+  background-color:rgba(255,255,255,0.05) ;
+  transition: all 2s ease-in-out;
 }
-.project-box .desc h3{
-    text-align: center;
-    margin: 10px 0;
-    color: #ffffff;
+.project-box .desc h3 {
+  text-align: center;
+  margin: 10px 0;
+  color: #ffffff;
+  font-family: 'Alkalami', serif;
+
 }
-.project-box .desc h4{
-    color: #b01742;
-    font-size: 13px;
-    text-align: center;
-    margin-bottom: 5px;
+.project-box .desc h4 {
+  color: #bebebe;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 5px;
 }
-.project-box .desc p{
-    color: #c5c6c7;
-    font-size: 13px;
+.project-box .desc p {
+  color: #c5c6c7;
+  font-size: 13px;
 }
-.project-box a button{
-    text-decoration: none;
-    font-size: 12px;
-    color: #ffffff;
+.project-box a button {
+  text-decoration: none;
+  font-size: 12px;
+  color: #ffffff;
 }
-.project-box button{
-    padding: 10px 20px;
-    background-color: #df2651;
-    border: none;
+.project-box button {
+  padding: 10px 20px;
+  background-color: inherit;
+  border: 2px solid black;
+  
 }
-.project-box button:hover{
-    background-color: #b01742;
+.project-box button:hover {
+  background-color: #ffffff;
+  color: #000;
 }

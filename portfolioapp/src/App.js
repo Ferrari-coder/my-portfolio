@@ -4,21 +4,17 @@ import React from "react";
 import Header from "./header";
 import Services from "./services";
 import ShowCase from "./portfolio";
-// import './App.css';
-import TestiMonials from './components/TestiMonials/TestiMonials';
-
-
-
+import TestiMonials from "./components/TestiMonials/TestiMonials";
 
 function App() {
-  return(
+  return (
     <body>
-      <Header/>
-      <Services/>
-      <ShowCase/>
+      <Header />
+      <Services />
+      <ShowCase />
       <TestiMonials></TestiMonials>
     </body>
-  )
+  );
 }
 
 export default App;
