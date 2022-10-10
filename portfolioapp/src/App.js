@@ -1,10 +1,11 @@
-// import logo from './logo.svg';
 import React from "react";
-// import AboutMe from "./about";
-import Header from "./header";
-import Services from "./services";
-import ShowCase from "./portfolio";
+import Header from "./components/header";
+import Services from "./components/services";
+import ShowCase from "./components/portfolio";
 import TestiMonials from "./components/TestiMonials/TestiMonials";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
+import "../src/style.css"
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Services />
       <ShowCase />
       <TestiMonials></TestiMonials>
+      <Contact/>
+      <Footer/>
     </body>
   );
 }
