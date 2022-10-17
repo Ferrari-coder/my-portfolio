@@ -1,22 +1,22 @@
 import React from "react";
 import "../style.css"
 import MyHeroIcon from "../image/heroimg.png"
+import logo from "../image/mylogo.png"
 
 // component for header
 const Header = () => {
   return (
-    <div className="hero-part">
+    <div className="hero-part" id="home">
         {/* everything that has to do with the nav */}
         <header className="header-area" id="home">
         <nav>
             {/* logo part */}
             <div className="logo">
-            <a href="Header">Logo</a>
+            <a href="#home"><img src={logo} alt="mylogo" style={{width:"70px"}} id="logo"/></a>
             </div>
             {/* nav links */}
             <div className="nav-links">
             <a href="#home">Home</a>
-            <a href="#about">About Me</a>
             <a href="#services">Services</a>
             <a href="#portfolio">Projects</a>
             <a href="#contact">Contact Me</a>
@@ -31,6 +31,9 @@ const Header = () => {
             </a>
             <a href="https://github.com/Ferrari-coder" target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:oluwaferanmiaiyegbusi@gmail.com" target="_blank" rel="noreferrer">
+            <i class="fa-solid fa-envelope"></i>
             </a>
             </div>
         </nav>

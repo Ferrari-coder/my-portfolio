@@ -9,28 +9,28 @@ import "./TestiMonials.css";
 const TestiMonials = () => {
   const testiMonials = [
     {
-      name: "Rekob Ramya",
+      name: "Akindolani Gbenga",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.",
       address: "USA",
       img: "https://www.w3schools.com/howto/img_avatar.png",
     },
     {
-      name: "Brandon Savage",
+      name: "Amudipe Emmanuel",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.",
       address: "USA",
       img: "https://www.w3schools.com/howto/img_avatar.png",
     },
     {
-      name: "Steve Burns",
+      name: "Stanley Osuide",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.",
       address: "USA",
       img: "https://www.w3schools.com/howto/img_avatar.png",
     },
     {
-      name: "Kevin Canlas",
+      name: "Kotila Bolu",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.",
       address: "USA",
@@ -52,11 +52,11 @@ const TestiMonials = () => {
       0: {
         items: 1,
       },
-      600: {
-        items: 3,
+      700: {
+        items: 1,
       },
       1000: {
-        items: 3,
+        items: 1,
       },
     },
   };

@@ -13,6 +13,9 @@ const Footer = () => {
             <a href="https://github.com/Ferrari-coder" target="_blank" rel="noreferrer">
                 <i className="fa-brands fa-github"></i>
             </a>
+            <a href="mailto:oluwaferanmiaiyegbusi@gmail.com" target="_blank" rel="noreferrer">
+            <i class="fa-solid fa-envelope"></i>
+            </a>
             </div>
             <p>&copy; AIYEGBUSI OLUWAFERANMI 2022</p>
             .

@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/header";
-import Services from "./components/services";
+import Services from "./components/service/services";
 import ShowCase from "./components/portfolio";
 import TestiMonials from "./components/TestiMonials/TestiMonials";
 import Contact from "./components/contact";
