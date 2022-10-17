@@ -297,23 +297,24 @@ footer{
   text-align: center;
   padding: 3rem;
 }
+
 footer .footer-socials{
   margin-bottom: 2rem;
 }
 footer .footer-socials a{
-  padding: 10px 20px;
+  padding: 10px 15px;
   color: #0bd9d9;
   font-size: 15px;
-  border: 1px solid #0bd9d9;
-  border-radius: 50%;
-  margin: 0 10px;
+  /* border-radius: 50%; */
+  margin: 0 ;
 }
-footer .footer-socials a:hover{
-  background: rgba(11, 217, 217, 0.15);
+footer .footer-socials a i:hover{
+  color: rgba(11, 217, 217, 0.15);
 }
 footer p{
   color: #ffffff;
 }
+
 @media (max-width:1265px) {
   .container-box h3 {
     color: #ffffff;
